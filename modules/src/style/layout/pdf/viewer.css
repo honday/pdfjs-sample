@@ -1,0 +1,27 @@
+#pdf-viewer {
+    height: 100%;
+    width: 100%;
+}
+#pdf-viewer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#pdf-toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #2e2e2e;
+}
+#pdf-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3b3b3b;
+    box-sizing: border-box;
+    flex: 1;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+}
